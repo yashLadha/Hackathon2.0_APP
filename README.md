@@ -31,3 +31,9 @@ the query of ID's by aadhar card as well.
 However word of caution is that API url are hardcoded based on the network on which the server is running. 
 So please check the internet address before building app. It can be checked using commands `ifconfig and ipconfig`
 based on which works perfectly on your machine.
+
+##### Install instructions
+* Make sure server is running on the designated network and port
+* Change the api url according to that
+* Build the app
+* Enjoy it!! :smile:
