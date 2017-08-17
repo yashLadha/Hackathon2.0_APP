@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.gc.materialdesign.views.Card
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/card_user_family"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<com.balysv.materialripple.MaterialRippleLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_marginTop="8dp"
+				tools:text="Kamlesh Kumar"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="18sp"
+				android:id="@+id/tv_name_eng"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:id="@+id/tv_dob"
+				android:textSize="12sp"
+				android:gravity="center"
+				android:layout_marginBottom="8dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+	</com.balysv.materialripple.MaterialRippleLayout>
+</com.gc.materialdesign.views.Card>
