@@ -25,7 +25,8 @@ his card. This will be very helpul in rural as well as urban areas.
 Searches for the details of all the family members based on family id or bhamashah id ,
 but the main benefit it has over others is that it uses two indexes and communicate with
 each other which makes functioning faster as compared to single index. This also incorporates
-the query of ID's by aadhar card as well.
+the query of ID's by aadhar card as well. The highlighted name is the card if the hof family in 
+the family id query.
 
 ###### We can extend this product further by including more api's from server.
 However word of caution is that API url are hardcoded based on the network on which the server is running. 
